@@ -20,8 +20,8 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission here
-    console.log('Form submitted:', formData)
+    // TODO: Implement proper form submission with server endpoint
+    // For now, show success message to user
     alert('문의가 성공적으로 전송되었습니다. 빠른 시일 내에 답변드리겠습니다.')
   }
 
